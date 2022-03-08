@@ -23,10 +23,10 @@ function EmojiPicker(): JSX.Element {
     <h1>Emoji picker</h1>
     <ul style={{listStyleType: "none"}}>Your stored Emojis: {storeOfEmojis}</ul>
     <p style={{fontSize: 21}}>Current Emoji: {emojiFromCurrentRender}</p>
-    <button onClick={()=>queuedEmojiForRender("🤗")}>🤗</button>
+    <button onClick={() => queuedEmojiForRender("🤗")}>🤗</button>
     <button onClick={() => queuedEmojiForRender("😔")}>😔</button>
     <button onClick={() => queuedEmojiForRender("😴")}>😴</button>
-    <button onClick={() => queuedEmojiForRender("🤣")}>🤣 </button>
+    <button onClick={() => queuedEmojiForRender("🤣")}>🤣</button>
     <button onClick={() => queuedEmojiForRender("😭")}>😭</button>
     <button onClick={() => queuedEmojiForRender("😇")}>😇</button>
     <button onClick={() => queuedEmojiForRender("🤯")}>🤯</button>
